@@ -17,5 +17,6 @@ def print_meow():
 
 
 def test_q1_contents():
+    """Test that the contents of q1.py have been modified from the original content."""
     contents = Path("src/q1.py").read_text()
     assert contents != ORIGINAL_CONTENT
