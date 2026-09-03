@@ -7,4 +7,6 @@ In this homework assignment, you will practice:
 - Conditionals
 - Loops
 
-Each problem is in its own file.
+You can find the instructions for each question in the corresponding files in the `src` directory. The corresponding tests are in the `tests` directory.
+
+The autograder will also assign points for passing the style and MyPy linters.
