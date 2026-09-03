@@ -1,6 +1,6 @@
-"""HW1 Question 2"""
+"""HW1 Question 2
 
-"""Please implement the following function according to the provided documentation.
+Please implement the following function according to the provided documentation.
 Tests are provided for this question in the file tests/test_q2.py."""
 
 def validate_password(password: str) -> bool:

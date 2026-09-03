@@ -1,6 +1,6 @@
-"""HW1 Question 3"""
+"""HW1 Question 3
 
-"""Your task for this question is to write tests for the provided function.
+Your task for this question is to write tests for the provided function.
 Please write tests in the file tests/test_q3.py.
 Your tests are graded based on the number of cases covered."""
 
