@@ -1,5 +1,4 @@
-import pytest
-from pathlib import Path
+"""HW1 Question 1 Tests"""
 
 ORIGINAL_CONTENT = """\"\"\"HW1 Question 1\"\"\"
 
@@ -18,5 +17,6 @@ def print_meow():
 
 def test_q1_contents():
     """Test that the contents of q1.py have been modified from the original content."""
-    contents = Path("src/q1.py").read_text()
+    with open("src/q1.py", encoding="utf-8") as f:
+        contents = f.read()
     assert contents != ORIGINAL_CONTENT

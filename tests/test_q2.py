@@ -1,4 +1,5 @@
-import pytest
+"""HW1 Question 2 Tests"""
+
 import sys
 
 sys.path.append('.')
