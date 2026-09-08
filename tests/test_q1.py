@@ -15,7 +15,7 @@ def print_meow() -> None:
     print("meow")'''
 
 
-def test_q1_contents():
+def test_q1_contents() -> None:
     """Test that the contents of q1.py have been modified from the original content."""
     with open("src/q1.py", encoding="utf-8") as f:
         contents = f.read()
